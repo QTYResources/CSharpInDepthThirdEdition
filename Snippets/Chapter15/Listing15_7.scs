@@ -1,0 +1,7 @@
+static async Task ThrowCancellationException()
+{
+    throw new OperationCanceledException();
+}
+...
+Task task = ThrowCancellationException();
+Console.WriteLine(task.Status);

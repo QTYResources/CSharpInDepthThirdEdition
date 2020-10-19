@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="System.Collections.Generic.IReadOnlyCollection&lt;T&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="2.75" Y="2.75" Width="2" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IReadOnlyDictionary&lt;TKey, TValue&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="4.25" Y="4.25" Width="3" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IReadOnlyList&lt;T&gt;" Collapsed="true" HideInheritanceLine="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="System.Collections.Generic.IEnumerable&lt;T&gt;" IsHidden="true" />
+    <InheritanceLine Type="System.Collections.IEnumerable" IsHidden="true" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.Generic.IEnumerable&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="System.Collections.IEnumerable" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
